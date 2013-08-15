@@ -44,7 +44,6 @@ World.prototype.build = function (x, y, zoom, seeds, max) {
       var elevation = perlin(ii + seeds[0], jj + seeds[0], 200, 1)
       var roughness = perlin(ii + seeds[1], jj + seeds[1], 70, 1)
       var detail = perlin(ii + seeds[2], jj + seeds[2], 25, 1)
-
       var res = ~~(((elevation * roughness) * 32) + (detail * 8) - 8)
 
       terrain.set(i, j, res)

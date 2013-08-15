@@ -1,14 +1,18 @@
 {
-  "name": "worldgenwofl",
+  "name": "voxel-world-generator",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "beefy index.js:bundle.js"
   },
   "author": "",
   "license": "BSD",
   "dependencies": {
     "ndarray": "~1.0.6"
+  },
+  "devDependencies": {
+    "beefy": "~0.4.1",
+    "browserify": "~2.26.0"
   }
 }
