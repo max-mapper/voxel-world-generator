@@ -9,7 +9,11 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "ndarray": "~1.0.6"
+    "ndarray": "~1.0.6",
+    "zeros": "0.0.0",
+    "perlin": "~1.0.0",
+    "ndarray-fill": "~0.1.0",
+    "ndarray-continuous": "~0.4.1"
   },
   "devDependencies": {
     "beefy": "~0.4.1",
